@@ -7,7 +7,6 @@ import com.dwe.routing.configureRouting
 import com.dwe.service.JwtService
 import com.dwe.service.UserService
 import io.ktor.server.application.*
-import io.ktor.server.engine.*
 import io.ktor.server.netty.*
 
 fun main(args: Array<String>): Unit = EngineMain.main(args)
